@@ -83,7 +83,41 @@ function doCycles() {
 // doCycles();
 
 /////////////////////////////////////////////////////////////////
-//
+// FUNCTIONS
+let num;
+console.log('0: ' + num);
+
+function showNum() {
+       
+    function showNumber_1() {
+        num = 20;
+        console.log("1: " + num);
+    }
+    
+    showNumber_1();
+    
+    console.log("2: " + num);
+    
+    function showNumber_2() {
+        let num = 50;
+        console.log("3: " + num);
+        return num;
+    }
+    
+    showNumber_2();
+    
+    console.log("4: " + num);
+    return showNumber_2();
+}
+
+let nextNum = showNum();
+
+let showNumber = (a) => {
+    console.log(nextNum + a);
+};
+
+showNumber(5);
+
 
 
 
