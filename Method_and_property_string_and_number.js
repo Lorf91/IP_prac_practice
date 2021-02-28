@@ -1,7 +1,7 @@
 "use strict";
 
-console.dir(Number);
-console.dir(String);
+// console.dir(Number);
+// console.dir(String);
 
 function doSomeMethods() {
     const logg = "Hello world";
