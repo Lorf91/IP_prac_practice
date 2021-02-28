@@ -18,12 +18,17 @@ function runFirstProgram() {
         privat: false,
     };
     
-    
     for(i = 0; i < 2; i++) {
         a = prompt('What film do see last?', '');
         b = prompt('Yor mark :', '');
-        
-        personalMovieDB.movies[a] = b;
+
+        if (a != null && b != null && a != '' && b != '' && a.length < 50) {
+            personalMovieDB.movies[a] = b;
+            console.log('done');
+        } else {
+            console.log('Error');
+            i--;
+        }
     }
 
     if (personalMovieDB.count <= 10) {
