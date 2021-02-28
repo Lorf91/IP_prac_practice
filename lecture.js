@@ -85,7 +85,7 @@ function doCycles() {
 /////////////////////////////////////////////////////////////////
 // FUNCTIONS
 let num;
-console.log('0: ' + num);
+// console.log('0: ' + num);
 
 function showNum() {
        
@@ -110,13 +110,13 @@ function showNum() {
     return showNumber_2();
 }
 
-let nextNum = showNum();
+// let nextNum = showNum();
 
 let showNumber = (a) => {
     console.log(nextNum + a);
 };
 
-showNumber(5);
+// showNumber(5);
 
 
 
