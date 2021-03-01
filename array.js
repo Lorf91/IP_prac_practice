@@ -69,5 +69,5 @@ function doSomeArray() {
     }
 }
 
-doSomeArray();
+// doSomeArray();
 
