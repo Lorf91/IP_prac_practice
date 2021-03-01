@@ -9,5 +9,5 @@ function done() {
     console.log('Я прошел этот урок');
 }
 
-lear('Java Script', done);
+// lear('Java Script', done);
 
