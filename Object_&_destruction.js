@@ -53,5 +53,5 @@ function doSomeWidthObj() {
     console.log(bg);
 }
 
-doSomeWidthObj();
+// doSomeWidthObj();
 
