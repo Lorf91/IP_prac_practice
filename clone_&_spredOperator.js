@@ -148,6 +148,6 @@ function doSomeOperations() {
     console.log(newObj);
 }
 
-doSomeOperations();
+// doSomeOperations();
 
 
