@@ -1,0 +1,38 @@
+.box_wrapper, .cirle_wrapper {
+    display: flex;
+    min-height: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box_kv,
+  .circle{
+    min-width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 20px 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .cirle_wrapper .circle {
+    border-radius: 100%;
+    background-color: green;
+  }
+
+.black {
+  background-color: black;
+  width: 200px;
+  min-height: 10px;
+  margin: 20px auto;
+  color: red;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 10px;
+  line-height: 24px;
+}
