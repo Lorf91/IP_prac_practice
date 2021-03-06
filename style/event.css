@@ -23,3 +23,13 @@ button {
     display: block;
     margin-top: 30px;
   }
+
+  .mobile-event {
+    height: 1000px;
+  }
+
+  .mobile-event .box {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+  }
