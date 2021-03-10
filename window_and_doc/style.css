@@ -1,0 +1,16 @@
+.box {
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto 20px;
+    overflow: auto;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    background-color: tomato;
+    color: turquoise;
+    font-weight: bold;
+}
