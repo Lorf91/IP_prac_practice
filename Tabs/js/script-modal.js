@@ -49,7 +49,7 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
     });
 
     // вызываем модельное окно спустя 
-    const modalTimerId = setTimeout(openModal, 10000);
+    //const modalTimerId = setTimeout(openModal, 10000);
     
 
     //вызываем модельное окно при скроле в самый низ
@@ -61,6 +61,6 @@ const modalTrigger = document.querySelectorAll('[data-modal]'),
     }
 
     window.addEventListener('scroll', showModalByScroll);
-
+    
 });
 
